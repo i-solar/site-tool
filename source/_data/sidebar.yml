@@ -9,6 +9,3 @@ docs:
     permalinks: permalinks.html
     themes: themes.html
     eslint: eslint.html
-  miscellaneous:
-    troubleshooting: troubleshooting.html
-    contributing: contributing.html

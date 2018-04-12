@@ -18,12 +18,11 @@
 
 #banner-title
   padding-top: 20px
-  font-size: 40px
   line-height: 1.15
   font-weight: 300
   font-family: font-title
   text-align: center
-  font-size: 36px
+  font-size: 32px
   letter-spacing: 6px
   line-height: 60px
   color: #fff
@@ -33,11 +32,13 @@
     font-size: 50px
 
 #banner-bio
-  font-size: 20px
+  font-size: 16px
   margin: 0px
   color: rgb(214, 214, 214)
   text-align: center
   margin-bottom: 70px
+  @media mq-normal
+    font-size: 20px
 
 #banner-buttons
   margin-bottom: 100px
@@ -59,7 +60,8 @@
     border-radius: 50px
     text-align: center
   .intro
-    margin-right: 20px
+    @media mq-normal
+      margin-right: 20px
   .get-started
     background: #1b95e0
     border-color: transparent    

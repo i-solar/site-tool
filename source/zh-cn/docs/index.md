@@ -1,7 +1,7 @@
 title: 概述
 ---
 
-欢迎使用 Feflow，本文档将帮助您快速上手。如果您在使用过程中遇到问题，请查看 [问题解答](troubleshooting.html) 中的解答，或者在 [GitHub](https://github.com/feflow/feflow/issues)、[Google Group](https://groups.google.com/group/hexo) 上提问。
+欢迎使用 Feflow，本文档将帮助您快速上手。如果您在使用过程中遇到问题，请在 [GitHub](https://github.com/feflow/feflow/issues)上提问。
 
 ## 什么是 Feflow？
 
