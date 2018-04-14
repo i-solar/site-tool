@@ -5,7 +5,13 @@
       Documentation licensed under <a href="https://tldrlegal.com/license/mit-license" target="_blank">MIT</a>.
     </div>
     <div id="footer-links">
-      <a href="#" class="footer-link"><i class="fa fa-wechat"></i></a>
+      <a class="footer-link">
+        <i class="fa fa-wechat" id="wechat-trigger"></i>
+        <span class="wechat-qrcode" id="wechat-qrcode">
+          <img src="https://qpic.url.cn/feeds_pic/ajNVdqHZLLBJ9HDnzZNt8rBft0KhyZ9cczicFiaVVvSibzBKUUlbywBVg/" />
+          <em class="wechat-qrcode-icon"></em>
+        </span>
+      </a>
       <a href="https://github.com/{{ config.github }}" class="footer-link" target="_blank"><i class="fa fa-github-alt"></i></a>
     </div>
   </div>
