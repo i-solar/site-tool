@@ -1,15 +1,13 @@
-# Hexo Official Website
-<!-- Markdown snippet -->
-[![Build Status](https://travis-ci.org/hexojs/site.svg?branch=master)](https://travis-ci.org/hexojs/site)
+# Feflow Official Website
 
-The website for Hexo. You can see the generated files at [hexojs/hexojs.github.io](https://github.com/hexojs/hexojs.github.io) repository.
+Website for feflow.
 
 ## Getting started
 
 Install dependencies:
 
 ``` bash
-$ git clone https://github.com/hexojs/site.git
+$ git clone https://github.com/feflow/site-tool.git
 $ cd site
 $ npm install
 ```
