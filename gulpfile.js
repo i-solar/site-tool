@@ -107,7 +107,7 @@ gulp.task('screenshot:resize', ['screenshot:rev'], function() {
     .pipe(gulp.dest(dirs.screenshots));
 });
 
-gulp.task('screenshot', ['screenshot:rev', 'screenshot:resize', 'screenshot:revreplace']);
+// gulp.task('screenshot', ['screenshot:rev', 'screenshot:resize', 'screenshot:revreplace']);
 gulp.task('default', ['useref', 'screenshot']);
 
 function replaceBackSlash(str) {

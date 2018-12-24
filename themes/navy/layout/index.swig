@@ -19,16 +19,28 @@
         <h2>哪些产品在使用</h2>
         <ul>
           <li class="intro-user-item">
-            <img src="https://qpic.url.cn/feeds_pic/Q3auHgzwzM7V1vPRHVGgUpn0ybcv1yibsq3l6E5T8MyluoRGVTibfGPg/" />
+            <img src="https://qpic.url.cn/feeds_pic/Q3auHgzwzM7V1vPRHVGgUpn0ybcv1yibsq3l6E5T8MyluoRGVTibfGPg/" alt="NOW直播" />
           </li>
           <li class="intro-user-item">
-            <img src="https://qpic.url.cn/feeds_pic/ajNVdqHZLLDJ6PV59GoGcJZ7Il5kZFOBQhKzJ3xdTY6aqIV0Bciaobw/" />
+            <img src="https://qpic.url.cn/feeds_pic/ajNVdqHZLLDJ6PV59GoGcJZ7Il5kZFOBQhKzJ3xdTY6aqIV0Bciaobw/" alt="QQ" />
           </li>
           <li class="intro-user-item">
-            <img src="https://qpic.url.cn/feeds_pic/ajNVdqHZLLDVDFH1nSjqjaej24vCdR74Zkms9UDs6o5PLg9Eymfw7w/" />
+            <img src="https://qpic.url.cn/feeds_pic/ajNVdqHZLLDVDFH1nSjqjaej24vCdR74Zkms9UDs6o5PLg9Eymfw7w/" alt="" />
           </li>
           <li class="intro-user-item">
-            <img src="https://qpic.url.cn/feeds_pic/Q3auHgzwzM6SeMDTxicI1P5D73CFYeOiaicFSlBvicN006MhJiczGz1TvfQ/" />
+            <img src="https://qpic.url.cn/feeds_pic/Q3auHgzwzM6SeMDTxicI1P5D73CFYeOiaicFSlBvicN006MhJiczGz1TvfQ/" alt="花样直播" />
+          </li>
+          <li class="intro-user-item">
+            <img src="https://qpic.url.cn/feeds_pic/PiajxSqBRaEKiblibSREH854ib04Mnb1bWLjHIotUNHiaMsX3pfZp7hfEaw/" alt="美团外卖" />
+          </li>
+          <li class="intro-user-item">
+            <img src="https://qpic.url.cn/feeds_pic/PiajxSqBRaEL7324uObibqSq55MnM8kOs6AiaHmIVqciauYMDaXm87yUcg/" alt="群送礼" />
+          </li>
+          <li class="intro-user-item">
+            <img src="https://qpic.url.cn/feeds_pic/ajNVdqHZLLBKIItpuH3C0QfOM62LKnaHQEFaQpINZbmXiaa2Rj0FpHA/" alt="回音" />
+          </li>
+          <li class="intro-user-item">
+            <img src="https://qpic.url.cn/feeds_pic/ajNVdqHZLLAIBg2sCt53neth55DJB7ibDwYertLQjTtL9XzH1QOMklw/" alt="群视频" />
           </li>
         </ul>
       </div>
