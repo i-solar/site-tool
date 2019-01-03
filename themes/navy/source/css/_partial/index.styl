@@ -102,18 +102,17 @@
 
 #intro-feature-list
   padding-top: 20px
-  display: flex
-  flex-flow: column
-  display: -webkit-box
-  -webkit-box-pack: justify
-  -webkit-box-align: center
-  @media mq-normal
-    flex-flow: row wrap
+  text-align: center;
 
 .intro-feature-wrap
   padding-top: 20px
+  display: inline-block
+  width: 25%
+  min-width: 100px
+  margin: 20px 36px
+
   @media mq-normal
-    flex: 0 0 50%
+    margin: 0
     padding-top: 50px
 
 .intro-feature
@@ -127,6 +126,10 @@
   font-size: 36px
   padding-bottom: 26px
   text-align: center
+
+  .image {
+    max-width: 100%
+  }
 
 .intro-feature-title
   font-family: font-title
