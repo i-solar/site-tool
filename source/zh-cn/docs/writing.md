@@ -20,8 +20,6 @@ title: 脚手架开发
 
 在generator之下，需要开发一系列服务和集成规范、包括与Git仓库打通，即通过脚手架初始化项目时，对开发者进行鉴权，之后根据开发者定义的项目名称在远程仓库里创建项目仓库并授予开发者权限。整体系统架构如下：
 
-![架构](http://7tszky.com1.z0.glb.clouddn.com/FiwG7VvpYL3Tleaii9Q9dowGNJXv)
-
 > 后续开发包括但不限于数据统计、分析各个业务仓库信息等功能。
 
 ## 创建自定义generator
@@ -146,7 +144,7 @@ module.exports = class extends Generator {
 	}
 }
 ```
-![#2](http://ov6wf6qsi.bkt.clouddn.com/image/blog/a.png)
+
 ## 运行Generator
 
 进入项目根目录。
