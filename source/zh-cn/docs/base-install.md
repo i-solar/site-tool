@@ -16,7 +16,7 @@ npm i feflow-cli -g
 feflow
 ```
 
-![Feflow初始化](https://pub.idqqimg.com/f5022fe22c5f481185b3adb40d7df142.svg)
+![Feflow初始化](https://pub.idqqimg.com/45b5f10631af4b6da8a7c81ac8eea01c.svg)
 
 这里让你填写的 npm registry 和 npm proxy 是为了让你用 `Feflow` 安装模块的时候保证网络畅通或者是从私有仓库上下载 NPM 包。比如说你想用淘宝镜像安装模块，那么这里的 npm registry 要填写 https://registry.npm.taobao.org， 这样一来，`Feflow` 在安装模块时，就会通过这个配置进行包的下载。
 
