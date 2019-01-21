@@ -1,4 +1,4 @@
-title: Git提交规范
+title: Git Commit 规范
 ---
 
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?longCache=true&style=flat-square)
