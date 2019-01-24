@@ -3,9 +3,13 @@ header-padding-max = 30px
 logo-size = 50px
 
 #header
-  position: relative
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
   background: #fff
   padding: header-padding-normal 0
+  z-index: 10000000;
   @media print
     display: none
 

@@ -19,17 +19,20 @@ page:
 
 sidebar:
   docs:
-    getting_started: 开始使用
-    overview: 概述
-    commands: 命令
-    basic_usage: 开发者接入
-    writing: 自定义脚手架
-    tag_plugins: 插件开发
-    customization: 规范
-    permalinks: Git commit规范
-    themes: README规范
-    eslint: ESlint规范
-    plugins: 插件
-    miscellaneous: 其他
-    troubleshooting: 问题解答
-    contributing: 贡献
+    base: 基础
+    base-overview: 介绍
+    base-install: 安装
+    base-init: 创建项目
+    base-develope: 开始开发
+    base-build: 打包构建
+    base-plugins-inner: 插件
+    advance: 高级
+    advance-overview: 简介
+    advance-scaffold-custom: 自定义脚手架
+    advance-builder-custom: 自定义构建器
+    advance-plugins-custom: 自定义插件
+    advance-plugins-context: 插件上下文 API
+    rule: 规范
+    rule-overview: 简介
+    rule-git-commit: Git Commit 规范
+    rule-eslint: ESLint 规范
