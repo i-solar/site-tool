@@ -159,3 +159,9 @@ hexo.extend.helper.register('hexo_version', function() {
   return this.env.version;
 });
 
+hexo.extend.helper.register('encologyList', function() {
+  const { encologies } = this.site.data;
+  return JSON.stringify(encologies);
+});
+
+
