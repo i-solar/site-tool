@@ -1,12 +1,15 @@
 # 外网展示的数据
-- registry: feflow/generator-ivweb
+- registry: generator-ivweb
+  fullRegistry: 'feflow/generator-ivweb'
   type: 'outer'
 
-- registry: feflow/builder-webpack4
+- registry: builder-webpack4
+  fullRegistry: 'feflow/builder-webpack4'
   type: 'outer'
 
-- registry: i-solar/feflow-plugin-svgtocn
+- registry: feflow-plugin-svgtocn
   type: 'outer'
 
-- registry: feflow/feflow-plugin-pic-optimize
+- registry: feflow-plugin-pic-optimize
+  fullRegistry: 'feflow/feflow-plugin-pic-optimize'
   type: 'outer'
