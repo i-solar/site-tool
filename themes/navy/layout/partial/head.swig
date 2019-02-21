@@ -28,6 +28,10 @@
   <meta name="msapplication-TileColor" content="#2f83cd">
   <meta name="msapplication-TileImage" content="{{ url_for('icon/mstile-144x144.png') }}">
   <meta name="generator" content="Hexo {{ hexo_version() }}">
+  <!-- SEO -->
+  <meta name="keywords" content="feflow,feflowjs,工程化,前端工程化,工作流,前端工作流,规范" />
+  <meta name="robots" content="Index,Follow" />
+  <meta name="description" content="Feflow是腾讯开源的用于提升工程效率的前端工作流和规范工具" />
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
   {{ css('css/navy') }}

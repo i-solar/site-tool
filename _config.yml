@@ -1,6 +1,6 @@
 title: Feflow.js
-subtitle: "A fast, simple & powerful blog framework powered by Node.js."
-description: "Hexo is a fast, simple & powerful blog framework powered by Node.js."
+subtitle: "前端工作流和规范工具."
+description: "Feflow是腾讯开源的用于提升工程效率的前端工作流和规范工具."
 author: Feflow.js
 language: zh-cn
 timezone: UTC
