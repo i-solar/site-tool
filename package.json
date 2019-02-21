@@ -1,44 +1,30 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
-  "hexo": {
-    "version": "3.8.0"
-  },
+  "name": "feflow-site",
+  "version": "1.0.0",
+  "description": "Feflow 官方网站",
+  "main": "index.js",
   "scripts": {
-    "build": "hexo generate",
-    "eslint": "eslint .",
-    "deploy": "hexo deploy"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "cheerio": "^0.20.0",
-    "hexo": "^3.7.1",
-    "hexo-deployer-git": "^0.3.1",
-    "hexo-generator-archive": "^0.1.4",
-    "hexo-generator-feed": "^1.1.0",
-    "hexo-generator-sitemap": "^1.1.2",
-    "hexo-renderer-jade": "^0.4.1",
-    "hexo-renderer-marked": "^0.2.10",
-    "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0",
-    "lodash": "^4.5.1",
-    "lunr": "^2.1.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-solar/site-tool.git"
   },
+  "keywords": [
+    "feflow",
+    "site"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-solar/site-tool/issues"
+  },
+  "homepage": "https://github.com/i-solar/site-tool#readme",
   "devDependencies": {
-    "del": "^3.0.0",
-    "eslint": "^4.3.0",
-    "eslint-config-hexo": "^2.0.0",
-    "gulp": "^3.9.1",
-    "gulp-cheerio": "^0.6.2",
-    "gulp-clean-css": "^3.7.0",
-    "gulp-if": "^2.0.0",
-    "gulp-responsive": "^2.8.0",
-    "gulp-rev": "^6.0.1",
-    "gulp-rev-collector": "^1.0.2",
-    "gulp-rev-replace": "^0.4.3",
-    "gulp-uglify": "^1.5.3",
-    "gulp-unique-files": "^0.1.2",
-    "gulp-useref": "^2.1.0",
-    "rename": "^1.0.4"
+    "eslint": "^5.14.1",
+    "eslint-config-ivweb": "^0.1.5",
+    "vuepress": "^0.14.9"
   }
 }
