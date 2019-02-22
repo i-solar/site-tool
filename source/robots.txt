@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /hexo-theme-landscape/
-Disallow: /hexo-theme-light/
-Disallow: /hexo-theme-phase/
+
+Sitemap: https://www.feflowjs.org/sitemap.xml
+Sitemap: https://www.feflowjs.org/baidusitemap.xml

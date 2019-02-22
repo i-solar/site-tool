@@ -1,42 +1,35 @@
 menu:
   docs: Docs
-  api: API
-  news: News
-  plugins: Plugins
-  themes: Themes
+  encologies: Encologies
   search: Search
 
 index:
-  get_started: Get started
+  get_started: Get Started
 
 page:
   contents: Contents
-  back_to_top: Back to Top
-  improve: Improve this doc
+  back_to_top: Back to top
+  improve: Improve
   prev: Prev
   next: Next
-  last_updated: "Last updated: %s"
+  last_updated: Last updated
 
 sidebar:
   docs:
-    getting_started: Getting Started
-    overview: Overview
-    setup: Setup
-    configuration: Configuration
-    commands: Commands
-    migration: Migration
-    basic_usage: Basic Usage
-    writing: Writing
-    front_matter: Front-matter
-    tag_plugins: Tag Plugins
-    asset_folders: Asset Folders
-    data_files: Data Files
-    server: Server
-    generating: Generating
-    deployment: Deployment
-    customization: Customization
-    permalinks: Permalinks
-    themes: Themes
-    miscellaneous: Miscellaneous
-    troubleshooting: Troubleshooting
-    contributing: Contributing
+    base: Base
+    base-overview: Overview
+    base-install: Install
+    base-init: Create Project
+    base-develope: Start Develope
+    base-build: Build And Bundle
+    base-plugins-inner: Plugin
+    advance: Advance
+    advance-overview: Overview
+    advance-scaffold-custom: Custom Scaffold
+    advance-builder-custom: Custom Builder
+    advance-plugins-custom: Custom Plugin
+    advance-plugins-context: Plugin Context
+    rule: Rule
+    rule-overview: Overview
+    rule-git-commit: Git Commit Rule
+    rule-eslint: ESLint Rule

@@ -2,8 +2,11 @@ title: Feflow.js
 subtitle: "前端工作流和规范工具."
 description: "Feflow是腾讯开源的用于提升工程效率的前端工作流和规范工具."
 author: Feflow.js
-language: zh-cn
+language:
+- zh-cn
+- en
 timezone: UTC
+i18n_dir: :lang
 
 url: https://feflowjs.org
 root: /
@@ -37,3 +40,8 @@ algolia:
     api_key: cdea7d4e47d84f6145b77e7f68689f35
     index_name: hexo_zh-cn
 github: feflow/feflow
+
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
