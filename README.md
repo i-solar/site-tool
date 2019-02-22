@@ -15,13 +15,14 @@ $ npm install
 Generate:
 
 ``` bash
-$ hexo generate
+$ npx hexo clean
+$ npx hexo generate
 ```
 
 Run server:
 
 ``` bash
-$ hexo server
+$ npx hexo server
 ```
 
 ## Contributors
