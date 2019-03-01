@@ -1,110 +1,110 @@
-title: 插件上下文 API
+title: Plugin context API
 ---
 
-无论是开发脚手架、构建器还是插件，Feflow 都会通过传参或注入全局变量给开发者提供一个 Feflow 实例方便大家开发，这是个实例又被称为插件上下文，本章将列出所有插件上下文的 API。
+No matter developing generators, builders or plugins, Feflow will use a parameter or inject a global variable to provide a Feflow instance for users to develop. This instance is also called plugin context. In this section we will list all the API of plugin context.
 
-## Feflow 运行环境相关 API
+## Feflow context API
 
 ### feflow.version
 
-返回当前 Feflow 的版本。string 类型。
+return the version of Feflow which is a string.
 
 ### feflow.baseDir
 
-返回 Feflow 的主目录。string 类型。
+return the base directory of Feflow which is a string.
 
 ### feflow.rcPath
 
-返回 Feflow 全局配置文件 `.feflowrc.yml` 的路径。string 类型。
+return the path of configuration file `.feflowrc.yml` which is a string.
 
 ### feflow.pkgPath
 
-返回 Feflow 的 `package.json` 文件的路径。string 类型。
+return the path of `package.json` of feflow, which is a string.
 
 ### feflow.pluginDir
 
-返回 Feflow 的插件、构建器、脚手架等安装路径。string 类型。
+return the installing path of plugins, builders and generator of Feflow.
 
 ### feflow.logDir
 
-返回 Feflow 日志的路径。string 类型。
+return the path of log which is a string.
 
 ### feflow.config
 
-返回 Feflow 的全局配置对象，即 `.feflowrc.yml` 读取出来的数据。object 类型。
+return the global configuration of Feflow which is `.feflowrc.yml`. It will return an object.
 
 ### feflow.args
 
-返回 feflow 命令经过解析的参数。如 `feflow init` 返回 `{ "": ["init"] }`。object 类型。
+return the arguments resolved by feflow command. For example, `feflow init` will return `{ "": ["init"] }`. This is an object.
 
-## Feflow 日志打印相关 API
+## Feflow log API
 
-Feflow 提供的工具类函数都放在 `feflow.log` 实例中，它包含以下属性和方法：
+The utility functions provided by Feflow are stored in `feflow.log`. It includes the properties and methods listed below:
 
 ### feflow.log.info
 
-控制台输出提示类日志的方法，Function 类型。
+The method of logging info. It's a function.
 
 ### feflow.log.debug
 
-控制台输出调试类日志的方法，需要在命令行增加 --debug 才可启用这个方法，Function 类型。
+The method of logging debug details. It's a function.
 
 ### feflow.log.warn
 
-控制台输出警告类日志的方法，Function 类型。
+The method of logging warnning. It's a function.
 
 ### feflow.log.error
 
-控制台输出错误类日志的方法，Function 类型。
+The method of logging errors. It's a function.
 
 ### feflow.log.fatal
 
-控制台输出致命错误类日志的方法，Function 类型。
+The method of logging fatals. It's a function.
 
 ### feflow.log.i
 
-`feflow.log.info` 方法的简写。
+Alias of `feflow.log.info`.
 
 ### feflow.log.d
 
-`feflow.log.debug` 方法的简写。
+Alias of `feflow.log.debug`.
 
 ### feflow.log.w
 
-`feflow.log.warn` 方法的简写。
+Alias of `feflow.log.warn`.
 
 ### feflow.log.e
 
-`feflow.log.error` 方法的简写。
+Alias of `feflow.log.error`.
 
-## Feflow 工具函数相关 API
+## Feflow util API
 
-Feflow 提供的工具类函数都放在 `feflow.utils` 对象中，它包含以下方法：
+The utility function provided by feflow is stored in `feflow.utils`. It includes the methods below:
 
 ### feflow.utils.chalk
 
-NPM 包 `chalk` 的引用，方便操作控制台输出字符的样式。Object 类型。
+Alias of NPM module `chalk`. It's convenient for console to log styles of charactors. It's an object.
 
 ### feflow.utils.Loading(name, color)
 
-控制台显示加载进度的构造函数。Function 类型。需要先 `new feflow.utils.Loading(name, color)` 生成一个实例 `loading`，然后再调用 `loading.success(message)` 或者 `loading.fail(message)` 方法表示成功加载或者加载失败。
+The constructor for console to show loading progress. It's a function. You need `new feflow.utils.Loading(name, color)` to generate a instance `loading`. Then call `loading.success(message)` or `loading.fail(message)` to show if the result is successful.
 
-## Feflow 命令相关 API
+## Feflow command API
 
-Feflow 命令相关 API都放在 `feflow.cmd` 实例中，它包含以下属性和方法：
+All command API are stored in `feflow.cmd`. It includes the properties and methods listed below:
 
 #### feflow.cmd.alias
 
-返回 Feflow 当前支持的所有命令以及它们的缩写。object 类型。
+Return all the commands and alias of them in Feflow. It's an object.
 
 #### feflow.cmd.list()
 
-返回 Feflow 当前支持的所有命令对应的执行函数。object 类型。
+Return all the commands and the responding functions. It's an object.
 
 #### feflow.cmd.get(name)
 
-返回 Feflow 特定的命令对应的执行函数。Function 类型。
+Return the specific function of a command. It's a function.
 
 #### feflow.cmd.register(name, desc, options, fn)
 
-注册一个命令。Function 类型。
+Register a command. It's a function.
