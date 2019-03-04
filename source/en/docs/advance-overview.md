@@ -1,4 +1,4 @@
-title: 高级
+title: Advance
 ---
 
-高级部分面向需要定制自己的脚手架、构建器或插件的开发者。
+Advanced section is for developers who need to custom their own boilerplate, builder or plugins.
